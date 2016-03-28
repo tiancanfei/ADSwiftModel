@@ -7,15 +7,16 @@ swift模型转换框架
 生成的对象可以直接归档
 
 可以直接使用扩展提供的方法进行模型转换
-字典转模型使用
+*字典转模型使用
 class func objectWithKeyValue(keyValue:[String:AnyObject]) -> AnyObject?
-字典数组转模型数组
+*字典数组转模型数组
 class func objectWithKeyValues(keyValues:[[String:AnyObject]]) -> [AnyObject]?
-对象归档
+*对象归档
  class func saveObject(object:AnyObject, name:String)
- 对象解档
+ *对象解档
   class func readObjectWithName(name:String) -> AnyObject?
-  
+ *Example:
+```  
 //Person.swift
 import UIKit
 
@@ -66,3 +67,4 @@ class ViewController: UIViewController {
         print(person1.book![2].name)
     }
 }
+```
