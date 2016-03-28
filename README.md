@@ -12,9 +12,9 @@ class func objectWithKeyValue(keyValue:[String:AnyObject]) -> AnyObject?</br>
 class func objectWithKeyValues(keyValues:[[String:AnyObject]]) -> [AnyObject]?</br>
 * 对象归档</br>
  class func saveObject(object:AnyObject, name:String)</br>
- * 对象解档</br>
+* 对象解档</br>
   class func readObjectWithName(name:String) -> AnyObject?</br>
- ###Example:
+ ###Example
 ```  
 //Person.swift
 import UIKit
