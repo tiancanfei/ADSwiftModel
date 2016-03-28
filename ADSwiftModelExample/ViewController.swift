@@ -9,10 +9,20 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    var testBool = false
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        let dict = ["name":"小史", "age":"34", "sex":true, "book":[["name":"诛仙", "price":"34", "count":"78","author":["name":"萧鼎", "age":"45"]],["name":"诛仙", "price":"34", "count":"78","author":["name":"萧鼎", "age":"45"]],["name":"诛仙二", "price":"34", "count":"78","author":["name":"萧鼎", "age":"45","sex":true]]]]
+        
+        let person:Person = Person.objectWithKeyValue(dict) as! Person
+        
+        NSObject.saveObject(person, name: "person")
+        
+        let person1 = NSObject.readObjectWithName("person") as! Person
+        
+        print(person1.book![2].name)
     }
 
     override func didReceiveMemoryWarning() {

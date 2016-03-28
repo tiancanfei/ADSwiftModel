@@ -14,6 +14,10 @@
 		4816DF241CA680D60062FAFB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4816DF221CA680D60062FAFB /* LaunchScreen.storyboard */; };
 		4816DF2F1CA680D70062FAFB /* ADSwiftModelExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4816DF2E1CA680D70062FAFB /* ADSwiftModelExampleTests.swift */; };
 		4816DF3A1CA680D70062FAFB /* ADSwiftModelExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4816DF391CA680D70062FAFB /* ADSwiftModelExampleUITests.swift */; };
+		4816DF4A1CA681270062FAFB /* Author.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4816DF471CA681270062FAFB /* Author.swift */; };
+		4816DF4B1CA681270062FAFB /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4816DF481CA681270062FAFB /* Book.swift */; };
+		4816DF4C1CA681270062FAFB /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4816DF491CA681270062FAFB /* Person.swift */; };
+		4816DF4F1CA681310062FAFB /* NSObject+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4816DF4E1CA681310062FAFB /* NSObject+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		4816DF351CA680D70062FAFB /* ADSwiftModelExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ADSwiftModelExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4816DF391CA680D70062FAFB /* ADSwiftModelExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ADSwiftModelExampleUITests.swift; sourceTree = "<group>"; };
 		4816DF3B1CA680D70062FAFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4816DF471CA681270062FAFB /* Author.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Author.swift; sourceTree = "<group>"; };
+		4816DF481CA681270062FAFB /* Book.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
+		4816DF491CA681270062FAFB /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		4816DF4E1CA681310062FAFB /* NSObject+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSObject+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +107,10 @@
 			children = (
 				4816DF191CA680D60062FAFB /* AppDelegate.swift */,
 				4816DF1B1CA680D60062FAFB /* ViewController.swift */,
+				4816DF4D1CA681310062FAFB /* ADSwiftModel */,
+				4816DF471CA681270062FAFB /* Author.swift */,
+				4816DF481CA681270062FAFB /* Book.swift */,
+				4816DF491CA681270062FAFB /* Person.swift */,
 				4816DF1D1CA680D60062FAFB /* Main.storyboard */,
 				4816DF201CA680D60062FAFB /* Assets.xcassets */,
 				4816DF221CA680D60062FAFB /* LaunchScreen.storyboard */,
@@ -123,6 +135,14 @@
 				4816DF3B1CA680D70062FAFB /* Info.plist */,
 			);
 			path = ADSwiftModelExampleUITests;
+			sourceTree = "<group>";
+		};
+		4816DF4D1CA681310062FAFB /* ADSwiftModel */ = {
+			isa = PBXGroup;
+			children = (
+				4816DF4E1CA681310062FAFB /* NSObject+Extension.swift */,
+			);
+			path = ADSwiftModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,8 +276,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4816DF4C1CA681270062FAFB /* Person.swift in Sources */,
+				4816DF4B1CA681270062FAFB /* Book.swift in Sources */,
+				4816DF4A1CA681270062FAFB /* Author.swift in Sources */,
 				4816DF1C1CA680D60062FAFB /* ViewController.swift in Sources */,
 				4816DF1A1CA680D60062FAFB /* AppDelegate.swift in Sources */,
+				4816DF4F1CA681310062FAFB /* NSObject+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
