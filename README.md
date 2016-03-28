@@ -14,7 +14,7 @@ class func objectWithKeyValues(keyValues:[[String:AnyObject]]) -> [AnyObject]?</
  class func saveObject(object:AnyObject, name:String)</br>
  * 对象解档</br>
   class func readObjectWithName(name:String) -> AnyObject?</br>
- ###Example:</br>
+ ###Example:
 ```  
 //Person.swift
 import UIKit
