@@ -2,7 +2,7 @@
 swift模型转换框架
 使用swift反射实现的模型转换和对象归档框架
 
-###使用方法
+##使用方法
 直接继承JLBObject创建模型对象</br>
 生成的对象可以直接归档</br>
 可以直接使用扩展提供的方法进行模型转换</br>
@@ -14,7 +14,7 @@ class func objectWithKeyValues(keyValues:[[String:AnyObject]]) -> [AnyObject]?</
  class func saveObject(object:AnyObject, name:String)</br>
 * 对象解档</br>
   class func readObjectWithName(name:String) -> AnyObject?</br>
-### Example
+##Example
 ```  
 //Person.swift
 import UIKit
